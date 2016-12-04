@@ -11,13 +11,14 @@ Additionally you can enable a form where the search is limited to the "open" tic
 
 =head1 REPOSITORY AND BUGTRACKER
 
-The code repository and a bugtracker are available at L<http://github.com/reneeb/otrs-AdditionalToolbarSearchFields>.
+The code repository and a bugtracker are available at L<https://github.com/reneeb/otrs-AdditionalToolbarSearchFields>.
 
 =head1 ACKNOWLEDGEMENT
 
 This addon was sponsored by SIJN ICT Services (L<http://sijn.nl>).
 
-=head1 AUTHOR
+=head1 AUTHOR AND LICENSE
 
-Renee Baecker C<< <info@feature-addons.de> >>
+This module is licensed under the terms of AGPL 3.0.
 
+Author: Renee Baecker, Perl-Services.de, C<< <otrs@perl-services.de> >>
