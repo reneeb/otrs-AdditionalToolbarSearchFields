@@ -19,15 +19,15 @@ sub Data {
     my $Lang = $Self->{Translation} || {};
 
     # Custom/Kernel/Output/HTML/OutputFilter/AdditionalToolbarSearchFields.pm
-    $Lang->{'Customer number'} = '';
-    $Lang->{'Search'} = '';
-    $Lang->{'Fulltext Search'} = '';
-    $Lang->{'Fulltext search'} = '';
+    $Lang->{'Customer number'} = 'Kundennummer';
+    $Lang->{'Search'} = 'Suchen';
+    $Lang->{'Fulltext Search'} = 'Volltextsuche';
+    $Lang->{'Fulltext search'} = 'Volltextsuche';
 
     # Kernel/Config/Files/AdditionalToolbarSearchFields.xml
-    $Lang->{'Adds a dropdown to the toolbar.'} = '';
-    $Lang->{'If enabled a field for the customer number is shown in the fulltext search form.'} = '';
-    $Lang->{'If enabled an additional search form is shown.'} = '';
+    $Lang->{'Adds a dropdown to the toolbar.'} = 'Fügt ein Dropdown zur Toolbar hinzu';
+    $Lang->{'If enabled a field for the customer number is shown in the fulltext search form.'} = 'Wenn diese Option aktiviert ist, wird ein Feld für die Kundennummer in der Volltextsuche angezeigt.';
+    $Lang->{'If enabled an additional search form is shown.'} = 'Wenn diese Option aktiviert ist, wird ein zusätzliches Suchformular angezeigt.';
 }
 
 1;
